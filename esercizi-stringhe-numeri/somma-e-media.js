@@ -8,3 +8,15 @@
   
   http://www.imparareaprogrammare.it
 */
+
+
+
+var a = 1;
+var b = 2;
+var c = 3;
+var d = 4;
+var e = 5;
+
+var sum = (a+b+c+d+e);
+var media = (sum/5);
+alert('La somma dei numeri è ' + sum + ' e la loro media è ' + media);
