@@ -15,3 +15,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+
+var input = prompt("Inserisci un numero da 1 a 10");
+
+if (input%2) 
+  alert('numero dispari');
+else 
+  alert('numero pari');
