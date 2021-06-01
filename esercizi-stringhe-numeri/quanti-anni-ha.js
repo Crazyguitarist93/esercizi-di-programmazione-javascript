@@ -11,3 +11,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+
+var AnnoCor = 2021;
+var AnnoNasc = 1993;
+
+var eta = (AnnoCor-AnnoNasc);
+var etaManc = (100 - eta);
+
+alert('La persona ha ' + eta + ' anni ' + ' gliene mancano ' + etaManc + ' per arrivare a 100.');
