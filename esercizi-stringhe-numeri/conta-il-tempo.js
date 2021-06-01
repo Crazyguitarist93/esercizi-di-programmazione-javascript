@@ -12,3 +12,24 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var input = prompt("Inserisci i secondi ");
+
+
+
+var def = Math.floor(input/60);
+var defNoRound = (input/60);
+
+
+var ore = Math.floor(def/60);
+
+var ok = Math.floor(ore*60);
+
+var minuti = def - ok;
+
+var secondiNoRound = defNoRound - def;
+var secondi = Math.floor(secondiNoRound * 60);
+
+
+alert('sono ' + ore + ' ore ' + minuti + ' minuti e ' + secondi + ' secondi');
